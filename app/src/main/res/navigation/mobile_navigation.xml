@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="za.co.fortunemaseko.instic.ui.fragments.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="za.co.fortunemaseko.instic.ui.fragments.dashboard.DashboardFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="za.co.fortunemaseko.instic.ui.fragments.notifications.NotificationsFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_notifications" />
+    <fragment
+        android:id="@+id/healthFaqsFragment"
+        android:name="za.co.fortunemaseko.instic.ui.fragments.healthFaqs.HealthFaqsFragment"
+        android:label="health_faqs_fragment"
+        tools:layout="@layout/health_faqs_fragment" />
+    <fragment
+        android:id="@+id/medicalRemindersFragment"
+        android:name="za.co.fortunemaseko.instic.ui.fragments.medicalReminders.MedicalRemindersFragment"
+        android:label="medical_reminders_fragment"
+        tools:layout="@layout/medical_reminders_fragment" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="za.co.fortunemaseko.instic.ui.fragments.profile.ProfileFragment"
+        android:label="profile_fragment"
+        tools:layout="@layout/profile_fragment" />
+</navigation>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Instic</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="profile">Profile</string>
+    <string name="reminders">Reminders</string>
+    <string name="user_avatar">User avatar</string>
+    <string name="medicine_reminder_icon">Medicine Reminder icon</string>
+    <string name="award_icon">Award icon</string>
+    <string name="current_progress">Current Progress</string>
+    <string name="menu_container_title">What would you like to do?</string>
+    <string name="welcome_back">Welcome Back</string>
+    <string name="frequently_asked_health_questions_menu_image">Frequently asked health questions menu image</string>
+</resources>
